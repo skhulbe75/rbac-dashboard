@@ -48,13 +48,13 @@ var dashRoutes = [
   },
   {
     path: "/tables",
-    name: "Tables",
+    name: "Developers",
     rtlName: "لوحة القيادة",
     icon: <StatsIcon color="inherit" />,
     component: Tables,
     layout: "/admin",
-    plans: 900,
-    role: 900,
+    plans: 100,
+    role: 700,
   },
   {
     path: "/billing",
